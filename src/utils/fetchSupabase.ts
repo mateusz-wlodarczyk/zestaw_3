@@ -3,10 +3,11 @@ import { createClient } from '@supabase/supabase-js';
 import {  SUPABASE_URL } from './constans';
 import { Database } from './db.types';
 
-// const supabaseKey = process.env.SUPABASE_KEY as string
-// const supabaseKey = process.env.SUPABASE_ANON_KEY as string
-// const supabaseKey = import.meta.env.SUPABASE_KEY as string
-const supabaseKey = import.meta.env.SUPABASE_ANON_KEY as string
+
+const supabaseKey = import.meta.env.VITE_SUPABASE_KEY as string
+
+
+
 
 
 export const supabase = createClient<Database>(SUPABASE_URL, supabaseKey);

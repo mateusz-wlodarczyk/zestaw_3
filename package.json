@@ -27,7 +27,8 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^5.0.1",
-    "react-router-dom": "^6.21.3"
+    "react-router-dom": "^6.21.3",
+    "vite-plugin-env-compatible": "^2.0.1"
   },
   "devDependencies": {
     "@commitlint/cli": "^18.5.0",
@@ -51,6 +52,7 @@
     "prettier": "^3.2.4",
     "supabase": "^1.136.2",
     "typescript": "^5.2.2",
-    "vite": "^5.0.8"
+    "vite": "^5.0.8",
+    "vite-plugin-environment": "^1.1.3"
   }
 }
